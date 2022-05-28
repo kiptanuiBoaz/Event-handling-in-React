@@ -1,12 +1,14 @@
 import React from "react";
 
+import Form from "./form";
+
 function App() {
+
+
   return (
-    <div className="container">
-      <h1>Hello</h1>
-      <input type="text" placeholder="What's your name?" />
-      <button>Submit</button>
-    </div>
+    <Form
+      backColor= {"backcolor"}
+    />
   );
 }
 
